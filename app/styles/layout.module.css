@@ -1,0 +1,58 @@
+.layout {
+  width: 100%;
+  display: inline-flex;
+  text-align: initial;
+}
+.layout .navbar {
+  flex-direction: row;
+  justify-content: center;
+}
+.layout .navbar .inner {
+  flex: 1;
+  max-width: 1200px;
+  padding: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.layout .navbar .inner .mix {
+  flex-direction: row;
+  align-items: center;
+  gap: 36px;
+}
+.layout .navbar .inner .mix .item {
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.layout .navbar .inner .mix .item .logo {
+  width: 22px;
+  height: 24px;
+  mask-image: url("/logo.svg");
+  -webkit-mask-image: url("/logo.svg");
+  background-color: #3A3A60;
+  background-image: url("/logo.svg");
+  background-size: 0;
+}
+.layout .navbar .inner .mix .item.active {
+  font-weight: 700;
+  opacity: 1;
+}
+.layout .navbar .inner .mix .item.active .logo {
+  background-color: unset;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.layout .content {
+  flex-direction: row;
+  justify-content: center;
+}
+.layout .content .inner {
+  flex: 1;
+  max-width: 1200px;
+  padding: 24px;
+}
+
+/*# sourceMappingURL=layout.module.css.map */

@@ -9,11 +9,22 @@
 html, body {
   width: 100%;
   height: 100%;
+  background-color: #FAFAFF;
+  color: #3A3A60;
+}
+
+body {
+  text-align: center;
 }
 
 div {
   display: flex;
   flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
 }
 
 /*# sourceMappingURL=global.css.map */
