@@ -1,0 +1,80 @@
+.luna {
+  gap: 72px;
+}
+.luna .brand {
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 0;
+}
+.luna .brand .text {
+  gap: 12px;
+}
+.luna .brand .text p:nth-child(1) {
+  font-size: 48px;
+  font-weight: 500;
+}
+.luna .brand .text p:nth-child(2) {
+  font-size: 72px;
+  font-weight: 800;
+  color: #524B9B;
+}
+.luna .brand .line {
+  flex: 1;
+  height: 4px;
+  background-color: #3A3A60;
+  opacity: 0.2;
+  border-radius: 2px;
+}
+.luna .brand .logo {
+  width: 110px;
+  height: 120px;
+  background-image: url("/icon/luna-large.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.luna .introducing {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 160%;
+}
+.luna .introducing .highlight {
+  font-weight: 800;
+  color: #524B9B;
+}
+.luna .website {
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 0;
+}
+.luna .website .text {
+  gap: 12px;
+}
+.luna .website .text p {
+  font-size: 48px;
+}
+.luna .website .text p:nth-child(1) {
+  font-weight: 500;
+}
+.luna .website .text p:nth-child(2) {
+  font-weight: 700;
+  color: #524B9B;
+}
+.luna .website .line {
+  flex: 1;
+  height: 4px;
+  background-color: #3A3A60;
+  opacity: 0.2;
+  border-radius: 2px;
+}
+.luna .website .link {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=luna.module.css.map */

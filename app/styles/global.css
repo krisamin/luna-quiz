@@ -15,6 +15,7 @@ html, body {
 
 body {
   text-align: center;
+  overflow-y: scroll;
 }
 
 div {

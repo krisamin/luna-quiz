@@ -29,10 +29,10 @@
 .layout .navbar .inner .mix .item .logo {
   width: 22px;
   height: 24px;
-  mask-image: url("/logo.svg");
-  -webkit-mask-image: url("/logo.svg");
+  mask-image: url("/icon/luna.svg");
+  -webkit-mask-image: url("/icon/luna.svg");
   background-color: #3A3A60;
-  background-image: url("/logo.svg");
+  background-image: url("/icon/luna.svg");
   background-size: 0;
 }
 .layout .navbar .inner .mix .item.active {

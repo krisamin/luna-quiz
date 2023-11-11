@@ -4,7 +4,6 @@ import styles from "~/styles/layout.module.css";
 
 const Layout = () => {
   const { pathname } = useLocation();
-  console.log(pathname);
 
   const getClassName = (path: string) => {
     if (pathname === path) {
