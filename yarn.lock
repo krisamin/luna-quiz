@@ -802,6 +802,23 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
+"@prisma/client@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.5.2.tgz#ce6389e7ad9e9cf0fc2a7c6a0032ad2e12a9fd61"
+  integrity sha512-54XkqR8M+fxbzYqe+bIXimYnkkcGqgOh0dn0yWtIk6CQT4IUCAvNFNcQZwk2KqaLU+/1PHTSWrcHtx4XjluR5w==
+  dependencies:
+    "@prisma/engines-version" "5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a"
+
+"@prisma/engines-version@5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a":
+  version "5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-5.5.1-1.aebc046ce8b88ebbcb45efe31cbe7d06fd6abc0a.tgz#35cd59ed65ee1f9e333f4865ec86a4432c4d0a9c"
+  integrity sha512-O+qHFnZvAyOFk1tUco2/VdiqS0ym42a3+6CYLScllmnpbyiTplgyLt2rK/B9BTjYkSHjrgMhkG47S0oqzdIckA==
+
+"@prisma/engines@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-5.5.2.tgz#fe0d2361a48c7d59568ccf0d35c75432594e1ac1"
+  integrity sha512-Be5hoNF8k+lkB3uEMiCHbhbfF6aj1GnrTBnn5iYFT7GEr3TsOEp1soviEcBR0tYCgHbxjcIxJMhdbvxALJhAqg==
+
 "@remix-run/css-bundle@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@remix-run/css-bundle/-/css-bundle-2.2.0.tgz#1ee225fc1abfb54a1d68af87e39b1f8790454ab3"
@@ -5089,6 +5106,13 @@ pretty-ms@^7.0.1:
   dependencies:
     parse-ms "^2.1.0"
 
+prisma@^5.5.2:
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-5.5.2.tgz#54ad2f04f0dd4174f27128e4447013e8d75c4d69"
+  integrity sha512-WQtG6fevOL053yoPl6dbHV+IWgKo25IRN4/pwAGqcWmg7CrtoCzvbDbN9fXUc7QS2KK0LimHIqLsaCOX/vHl8w==
+  dependencies:
+    "@prisma/engines" "5.5.2"
+
 proc-log@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/proc-log/-/proc-log-3.0.0.tgz#fb05ef83ccd64fd7b20bbe9c8c1070fc08338dd8"
@@ -5208,6 +5232,11 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-kakao-login@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-kakao-login/-/react-kakao-login-2.1.1.tgz#00e9f534d18ce500e31c02ef1d751a1c93dfefbd"
+  integrity sha512-t9htk41/i0zUY7q92mtqdqVZZ018BPi1DgbSVVrPCmuMKhZGJOnZ9OfaKLVPu3sn8QXbJc3dPwqKOiElpb44hQ==
 
 react-refresh@^0.14.0:
   version "0.14.0"

@@ -45,6 +45,15 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.layout .navbar .inner .mix .logout {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  mask-image: url("/icon/logout.svg");
+  -webkit-mask-image: url("/icon/logout.svg");
+  background-color: #3A3A60;
+  opacity: 0.5;
+}
 .layout .content {
   flex-direction: row;
   justify-content: center;

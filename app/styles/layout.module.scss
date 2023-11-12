@@ -53,6 +53,17 @@
             }
           }
         }
+
+        .logout {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+  
+          mask-image: url("/icon/logout.svg");
+          -webkit-mask-image: url("/icon/logout.svg");
+          background-color: $luna-dark;
+          opacity: .5;
+        }
       }
     }
   }
