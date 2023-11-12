@@ -13,9 +13,9 @@
     "dev:prisma": "prisma studio",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
-    "postscript": "run-s postscript:*",
-    "postscript:prisma_generate": "prisma generate",
-    "postscript:prisma_push": "prisma db push",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:pull": "prisma db pull",
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc"
   },
