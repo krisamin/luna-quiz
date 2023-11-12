@@ -9,6 +9,7 @@ RUN yarn install
 COPY . .
 
 RUN yarn build
+RUN yarn postscript
 
 EXPOSE 3000
 
