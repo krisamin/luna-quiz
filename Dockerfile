@@ -16,8 +16,8 @@ ARG INFISICAL_TOKEN
 ENV INFISICAL_TOKEN=$INFISICAL_TOKEN
 
 RUN yarn build
-RUN yarn prisma:generate
+RUN infisical run -- yarn prisma:generate
 
 EXPOSE 3000
 
-CMD [ "yarn", "start" ]
+CMD [ "infisical", "run", "--" "yarn", "start" ]
