@@ -16,7 +16,7 @@ ARG INFISICAL_TOKEN
 ENV INFISICAL_TOKEN=$INFISICAL_TOKEN
 
 RUN yarn build
-RUN yarn postscript
+RUN yarn prisma:generate
 
 EXPOSE 3000
 
