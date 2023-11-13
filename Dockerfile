@@ -20,4 +20,4 @@ RUN infisical run --domain="https://env.2w.vc/api" --token="${INFISICAL_TOKEN}" 
 
 EXPOSE 3000
 
-CMD [ "infisical", "run", "--domain", "https://env.2w.vc/api", "--token", "${INFISICAL_TOKEN}", "--env", "prod", "--", "yarn", "start" ]
+CMD [ "infisical", "run", "--domain", "https://env.2w.vc/api", "--env", "prod", "--", "yarn", "start" ]
