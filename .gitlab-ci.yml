@@ -22,7 +22,6 @@ build-job:
     - >
       docker build
       --build-arg INFISICAL_TOKEN=$INFISICAL_TOKEN
-      --network=proxy
       -t $CI_REGISTRY_IMAGE .
     - docker push $CI_REGISTRY_IMAGE
 
