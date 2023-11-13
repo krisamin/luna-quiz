@@ -14,6 +14,7 @@ COPY . .
 
 ARG INFISICAL_TOKEN
 ENV INFISICAL_TOKEN=$INFISICAL_TOKEN
+RUN echo "infisical token: ${INFISICAL_TOKEN}"
 
 RUN yarn build
 RUN infisical run --token="${INFISICAL_TOKEN}" -- yarn prisma:generate
