@@ -13,7 +13,7 @@ RUN yarn install
 COPY . .
 
 ARG INFISICAL_TOKEN
-ENV INFISICAL_TOKEN=$INFISICAL_TOKEN
+ENV INFISICAL_TOKEN=${INFISICAL_TOKEN}
 
 RUN yarn build
 RUN infisical run -- yarn prisma:generate
