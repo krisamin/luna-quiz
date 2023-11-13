@@ -16,8 +16,8 @@ ARG INFISICAL_TOKEN
 ENV INFISICAL_TOKEN=$INFISICAL_TOKEN
 
 RUN yarn build
-RUN infisical run --domain="https://env.2w.vc/api" --token="${INFISICAL_TOKEN}" -- yarn prisma:generate
+RUN infisical run --domain="https://env.2w.vc/api" --token="${INFISICAL_TOKEN}" --env="prod" -- yarn prisma:generate
 
 EXPOSE 3000
 
-CMD [ "infisical", "run", "--domain='https://env.2w.vc/api'", "--token='${INFISICAL_TOKEN}'", "--" "yarn", "start" ]
+CMD [ "infisical", "run", "--domain='https://env.2w.vc/api'", "--token='${INFISICAL_TOKEN}'", "--env='prod'", "--" "yarn", "start" ]
