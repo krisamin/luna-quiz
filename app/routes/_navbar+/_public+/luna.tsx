@@ -1,4 +1,16 @@
+import type { MetaFunction } from "@remix-run/node";
+
 import styles from "~/styles/luna.module.css";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "요해 :: 문해력 퀴즈 • 루나" },
+    {
+      name: "description",
+      content: "달빛을 나누다, LUNA.",
+    },
+  ];
+};
 
 const Luna = () => {
   return (

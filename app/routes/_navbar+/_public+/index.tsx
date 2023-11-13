@@ -1,4 +1,16 @@
+import type { MetaFunction } from "@remix-run/node";
+
 import styles from "~/styles/main.module.css";
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: "요해 :: 문해력 퀴즈" },
+    {
+      name: "description",
+      content: "LUNA와 함께 게임으로, 문해력을 키워봐요!",
+    },
+  ];
+};
 
 const Main = () => {
   return (
